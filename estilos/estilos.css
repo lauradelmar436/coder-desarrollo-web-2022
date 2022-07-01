@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+#arriba{
+    font-size: 250%;
+    color: beige;
+    text-align: right;
+    background-color: violet;
+}
+#arriba li{
+    display: inline;
+    font-size: 20px;
+    height: 20px;
+    width: 30px;
+    padding: 40px;
+}
+
+.principal{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.principal__titulo{
+    color: beige;
+    font-size: 300%;
+    text-align: center;
+}
+
+.imagenDoc{
+    padding-top: 2%;
+    text-align: center;
+}
+
+.cv__titulo{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 200%;
+    font-style: italic;
+    color:beige;
+    margin-left: 5%;
+   ;
+}
+
+.cv{
+    padding: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: beige;
+    color: black;
+    font-size: 200%;
+    text-align: justify;
+}
+
+.tratamientos{
+    font-size: 200%;
+    color: beige;
+    background-color:black;
+    padding: 2%;
+
+}
+
+.tratamientos__titulo{
+    font-size: 200%;
+    font-style: italic;
+    padding-bottom: 5%;
+
+
+}
+.tratamientos__1--titulo{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.tratamientos__2--titulo{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.tratamientos__3--titulo{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.tratamientos__4--titulo{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.tratamientos__5--titulo{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.tratamientos__6--titulo{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.tratamientos__1{
+    padding-bottom: 5%;
+}
+
+footer{
+    font-size: 200%;
+    font-style: italic;
+    color: beige;
+    background-color: violet;
+}
+
+aside{
+    text-align: center;
+    color: beige;
+    background-color: darkmagenta;
+}
+
+.consultorios{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: beige;
+}
+
+main h1{
+    font-size: 300%;
+    padding: 3%;
+}
+
+.consultorio__imagen{
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.tabla__consultorios{
+    font-size: 200%;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.contacto{
+    background-color: black;
+    color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+    text-align: center;
+    padding: 3%;
+}
+.contacto h2{
+    padding-bottom: 3%;
+    font-size: 200%;
+    font-style: italic;
+}
+
+.reservaDeTurno{
+    background-color: black;
+    color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+    text-align: center;
+    padding: 3%;
+}
+.informacion{
+    display: inline;
+    width: 50px;
+    height: 30px;
+}
+
+.informacion__provincia{
+    display: inline;
+    width: 50px;
+    height: 30px;
+}
+.mensaje{
+    padding-top: 3%;
+}
+
+.principal__cv{
+    background-color: black;
+    color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+    text-align: center;
+    padding: 3%;
+}
+
+.titulo__cv{
+    font-size: 100%;
+    font-style: italic;
+}
+
+.titulos{
+    display: inline-block;
+    width: 75%;
+    height: 50%;
+    text-align: center;
+}
