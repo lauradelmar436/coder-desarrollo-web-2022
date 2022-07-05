@@ -12,7 +12,7 @@ html{
     font-size: 250%;
     color: beige;
     text-align: right;
-    background-color: violet;
+    background-color: rgba(46, 171, 229, 0.57);
 }
 #arriba li{
     display: inline;
@@ -59,16 +59,43 @@ html{
 
 .tratamientos{
     font-size: 200%;
-    color: beige;
     background-color:black;
     padding: 2%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: 1fr 1fr 1fr;
+    justify-items: start ;
+    /* grid-template-areas:
+    "1" "2"
+    "3" "4"
+    "5" "6"; */
 
 }
+.tratamientos__1{
+grid-area: 1;
+}
+.tratamientos__2{
+    grid-area: 2;
+}
+.tratamientos__3{
+    grid-area: 3;
+}
+.tratamientos__4{
+    grid-area: 4;
+}
+.tratamientos__5{
+    grid-area: 5;
+}
+.tratamientos__6{
+    grid-area: 6;
+}
+
 
 .tratamientos__titulo{
     font-size: 200%;
     font-style: italic;
     padding-bottom: 5%;
+    align-content: center;
 
 
 }
