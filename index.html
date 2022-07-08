@@ -7,27 +7,56 @@
     <title>Dr. Muzzopappa</title>
 
     <link rel="stylesheet" href="estilos/estilos.css">
-
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="shortcut icon" href="multimedia/medicinalove.webp" type="image/x-icon">
 </head>
 <body>
     <header>
-        <nav id="arriba"> 
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="paginas/sobremi.html">Sobre Mi</a></li>
-                <li><a href="paginas/consultorios.html">Consultorios</a></li>
-                <li><a href="paginas/contacto.html">Contacto</a></li>
-            </ul>
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Dr. Muzzopappa</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Consultorios</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Reservá un turno</li>
+                          <li><a class="dropdown-item" href="#">Contacto</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Sobre Mi</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscá</button>
+                      </form>
+                    </div>
+                  </div>
+                </nav>
         </nav>
     </header>
     <main class="principal">
         <div class="principal__titulo">
-        <h1>Dr. Orlando Muzzopappa</h1>
-        <h5><em>Médico Homeópata Unicista / Especialista en Clinica General</em></h5></div>
-        <div class="imagenDoc"><img src="multimedia/doc.jpeg" alt="Doctor" widht="300" height="300"></div>
-        <h4 class="cv__titulo">Experiencia y Formación</h4>
-        <p class="cv">Ex residente de Cirugía General del Hospital Ramón Carrillo
+            <h1>Dr. Orlando Muzzopappa</h1>
+            <h5><em>Médico Homeópata Unicista / Especialista en Clinica General</em></h5>
+        </div>
+        <div class="imagenDoc">
+            <img src="multimedia/doc.jpeg" alt="Doctor" widht="300" height="300">    
+        </div>
+            <h4 class="cv__titulo">Experiencia y Formación</h4>
+            <p class="cv">Ex residente de Cirugía General del Hospital Ramón Carrillo
 
             Ex Interno de Cirugía de Guardia del Hospital Ramón Carrillo del Partido de 3 de febrero, Ciudadela, Pcia de Buenos Aires.
             
@@ -37,41 +66,55 @@
             
             Médico Egresado del Curso Superior de Homeopatía de la Asociación Médica Homeopática Argentina.
             
-            Máster de Homeopatía.</p></div>
+            Máster de Homeopatía.</p>
     </main>
-    <section class="tratamientos"><h4 class="tratamientos__titulo">Tratamientos</h4>
-        <div class="tratamientos__1"><article class="tratamientos__1--titulo">Enfermedades Crónicas</article> <img src="multimedia/enfermedad.webp" alt="Imagen"widht="200" height="200">
-        <a href="paginas/reservatuturno.html"><input type="button" value="Reservá un turno"></a></div>
-        <div class="tratamientos__2"><article class="tratamientos__2--titulo">Autoinmunidad</article> <img src="multimedia/ledueletodo.webp" alt="Dolor"widht="250" height="250">
-        <a href="paginas/reservatuturno.html"><input type="button" value="Reservá un turno"></a></div>
-        <div class="tratamientos__3"><article class="tratamientos__3--titulo">Enfermedad Tiroidea</article> <img src="multimedia/seatoro.webp" alt="Garganta"widht="200" height="200">
-        <a href="paginas/reservatuturno.html"><input type="button" value="Reservá un turno"></a></div>
-        <div class="tratamientos__4"><article class="tratamientos__4--titulo">Dolor Osteoarticular</article> <img src="multimedia/rodillita.webp" alt="DolorOsteoarticular" widht="150" height="150">
-        <a href="paginas/reservatuturno.html"><input type="button" value="Reservá un turno"></a></div>
-        <div class="tratamientos__5"><article class="tratamientos__5--titulo">Tratamiento para Adelgazar</article> <img src="multimedia/medicinalove.webp" alt="Medicina" widht="250" height="250">
-        <a href="paginas/reservatuturno.html"><input type="button" value="Reservá un turno"></a></div>
-        <div class="tratamientos__6"><article class="tratamientos__6--titulo">Mesoterapia y Ozonoterapia</article> <img src="multimedia/ledueletodo.webp" alt="Ozonoterapia" widht="250" height="250">
-        <a href="paginas/reservatuturno.html"><input type="button" value="Reservá un turno"></a></div>
+    <section class="tratamientos">
+        <h4 class="tratamientos__titulo">Tratamientos</h4> 
+        <hr>
+        <div class="tratamientos__1">
+            <article class="tratamientos__1--titulo">Enfermedades Crónicas</article> <img src="multimedia/enfermedad.webp" alt="Imagen"widht="200" height="200">
+            <a href="paginas/reservatuturno.html"><input type="button" value="Reservá un turno"></a>
+        </div>
+        <div class="tratamientos__2">
+            <article class="tratamientos__2--titulo">Autoinmunidad</article> <img src="multimedia/ledueletodo.webp" alt="Dolor"widht="250" height="250">
+            <a href="paginas/reservatuturno.html"><input type="button" value="Reservá un turno"></a>
+        </div>
+        <div class="tratamientos__3">
+            <article class="tratamientos__3--titulo">Enfermedad Tiroidea</article> <img src="multimedia/seatoro.webp" alt="Garganta"widht="200" height="200">
+            <a href="paginas/reservatuturno.html"><input type="button" value="Reservá un turno"></a>
+        </div>
+        <div class="tratamientos__4">
+            <article class="tratamientos__4--titulo">Dolor Osteoarticular</article> <img src="multimedia/rodillita.webp" alt="DolorOsteoarticular" widht="150" height="150">
+            <a href="paginas/reservatuturno.html"><input type="button" value="Reservá un turno"></a>
+        </div>
+        <div class="tratamientos__5">
+            <article class="tratamientos__5--titulo">Tratamiento para Adelgazar</article> <img src="multimedia/medicinalove.webp" alt="Medicina" widht="250" height="250">
+            <a href="paginas/reservatuturno.html"><input type="button" value="Reservá un turno"></a>
+        </div>
+        <div class="tratamientos__6">
+            <article class="tratamientos__6--titulo">Mesoterapia y Ozonoterapia</article> <img src="multimedia/ledueletodo.webp" alt="Ozonoterapia" widht="250" height="250">
+            <a href="paginas/reservatuturno.html"><input type="button" value="Reservá un turno"></a>
+        </div>
         
     </section>
 
     <aside>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/_uJfnZt_UeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <hr>
-            <a href="paginas/contacto.html">Contacto</a>
-            <a href="#arriba">Ir arriba</a>
+            <div class="links">
+                <a href="paginas/contacto.html">Contacto</a>
+                <a href="#arriba">Ir arriba</a>
+            </div>
     </aside>
-
     <footer>
-
         <p>Copyright - Todos los derechos reservados</p>
         <div class="redes"><p>Redes sociales</p>
-        <a href="https://www.instagram.com/"><img src="multimedia/Instagram-logo.png" alt="Ig" widht="20" height="20"></a>
-   
-        <a href="https://www.facebook.com/"><img src="multimedia/fblogo.png" alt="Facebook" widht="20" height="20"></a>
-    
-        <a href="https://web.whatsapp.com/"><img src="multimedia/WhatsApp.svg.webp" alt="WhatsApp" widht="22"height="22"></a></div>
-  
+            <a href="https://www.instagram.com/"><img src="multimedia/Instagram-logo.png" alt="Ig" widht="20" height="20"></a>
+            <a href="https://www.facebook.com/"><img src="multimedia/fblogo.png" alt="Facebook" widht="20" height="20"></a>
+            <a href="https://web.whatsapp.com/"><img src="multimedia/WhatsApp.svg.webp" alt="WhatsApp" widht="22"height="22"></a>
+        </div>
     </footer>
+
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -8,6 +8,25 @@ html{
     font-size: 62.5%;
 }
 
+
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  width: 100%;
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 576px) {
+    .container-sm, .container {
+      max-width: 540px;
+    }
+  }
 #arriba{
     font-size: 250%;
     color: beige;
@@ -56,49 +75,24 @@ html{
     font-size: 200%;
     text-align: justify;
 }
+.tratamientos__titulo{
+    font-size: 200%;
+    color: beige;
+    font-style: italic;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .tratamientos{
     font-size: 200%;
-    background-color:black;
-    padding: 2%;
+    padding-bottom: 4%;
+    background-color: black;
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-auto-rows: 1fr 1fr 1fr;
-    justify-items: start ;
-    /* grid-template-areas:
-    "1" "2"
-    "3" "4"
-    "5" "6"; */
-
-}
-.tratamientos__1{
-grid-area: 1;
-}
-.tratamientos__2{
-    grid-area: 2;
-}
-.tratamientos__3{
-    grid-area: 3;
-}
-.tratamientos__4{
-    grid-area: 4;
-}
-.tratamientos__5{
-    grid-area: 5;
-}
-.tratamientos__6{
-    grid-area: 6;
+    grid-template-columns: 1fr 1fr;
 }
 
-
-.tratamientos__titulo{
-    font-size: 200%;
-    font-style: italic;
-    padding-bottom: 5%;
-    align-content: center;
-
-
-}
 .tratamientos__1--titulo{
     padding-top: 2%;
     padding-bottom: 2%;
@@ -129,17 +123,21 @@ grid-area: 1;
     padding-bottom: 5%;
 }
 
+.links{
+    font-size: 200%;
+}
+
 footer{
     font-size: 200%;
     font-style: italic;
     color: beige;
-    background-color: violet;
+    background-color: rgb(37, 76, 28);
 }
 
 aside{
     text-align: center;
     color: beige;
-    background-color: darkmagenta;
+    background-color: rgb(37, 76, 28);
 }
 
 .consultorios{
@@ -220,4 +218,8 @@ main h1{
     width: 75%;
     height: 50%;
     text-align: center;
+}
+
+@media screen {
+    
 }
