@@ -8,25 +8,6 @@ html{
     font-size: 62.5%;
 }
 
-
-.container,
-.container-fluid,
-.container-xxl,
-.container-xl,
-.container-lg,
-.container-md,
-.container-sm {
-  width: 100%;
-  padding-left: var(--bs-gutter-x, 0.75rem);
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  margin-left: auto;
-  margin-right: auto;
-}
-@media (min-width: 576px) {
-    .container-sm, .container {
-      max-width: 540px;
-    }
-  }
 #arriba{
     font-size: 250%;
     color: beige;
