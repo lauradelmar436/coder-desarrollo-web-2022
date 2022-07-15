@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+#arriba{
+    font-size: 250%;
+    color: beige;
+    text-align: right;
+    background-color: rgba(46, 171, 229, 0.57);
+    li{
+        display: inline;
+        font-size: 20px;
+        height: 20px;
+        width: 30px;
+        padding: 40px;
+    }
+}

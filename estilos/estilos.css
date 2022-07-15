@@ -8,7 +8,7 @@ html{
     font-size: 62.5%;
 }
 
-#arriba{
+/* #arriba{
     font-size: 250%;
     color: beige;
     text-align: right;
@@ -20,7 +20,7 @@ html{
     height: 20px;
     width: 30px;
     padding: 40px;
-}
+} */
 
 .principal{
     background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(2,82,12,1) 100%);;
